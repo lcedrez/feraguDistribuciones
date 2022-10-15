@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width:200px
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+.topNav{
+    display:flex;
+    text-decoration: none;
+    padding-left: 150px;
+    
+}
+.navLink{
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+}
+
+.search{
+    padding-left: 200px;
+    border-radius: 10px;
+}
+.barraBusqueda{
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    
+}
+
+.pie{
+    text-align: center;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#999;
+}
