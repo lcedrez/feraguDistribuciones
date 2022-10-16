@@ -41,6 +41,83 @@ li{
     height: 35px;
     
 }
+#iconoIg{
+    color: white;
+    font-size: 40PX;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+#iconoFb{
+    color: white;
+    font-size: 40PX;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+#iconoTw{
+    color: white;
+    font-size: 40PX;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.contenedorLogo{
+    padding-right: 200px;
+}
+.contenedorRedes{
+    background-color: black;
+    padding-left: 200px;
+    width: 400px;
+  
+    
+}
+.contenedorContacto{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-right: 50px;
+    padding-left: 450px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#iconHouse{
+    padding-right: 20px;
+    display: flex;
+    font-size: 20px;
+    width: 50px;
+}
+#iconMail{
+    padding-right: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+#iconPhone{
+    padding-right: 20px;
+    font-size: 20px;
+}
+.contHouse{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.contMail{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.contPhone{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+
+.contenedorPie{
+    display: flex;
+}
 
 .pie{
     text-align: center;
@@ -50,4 +127,20 @@ li{
    height:30px;
    width:100%;
    background:#999;
+}
+.contenedorPie{
+    display: flex;
+    background-color: black;
+    
+}
+
+.contFooter{
+    display: flex;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    padding-bottom: 10px;
+    width:100%;
+    background-color: black;
+    
 }
